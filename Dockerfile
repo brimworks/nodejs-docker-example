@@ -1,5 +1,5 @@
 FROM hwestphal/nodebox
-RUN apt-get -y install npm
+curl http://npmjs.org/install.sh | sh
 COPY . /src
 RUN cd /src; npm install
 EXPOSE 3000
