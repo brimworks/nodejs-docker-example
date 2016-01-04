@@ -1,6 +1,4 @@
-FROM ubuntu:14.04
-RUN apt-get update -y
-RUN sudo apt-get -y install nodejs
+FROM hwestphal/nodebox
 RUN sudo apt-get -y install npm
 COPY . /src
 RUN cd /src; npm install
