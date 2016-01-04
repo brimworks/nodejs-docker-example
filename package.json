@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-docker-example",
+  "version": "1.0.0",
+  "description": "An example using Docker with a sample Node.js app.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexleventer/nodejs-docker-example.git"
+  },
+  "author": "Alex Leventer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexleventer/nodejs-docker-example/issues"
+  },
+  "homepage": "https://github.com/alexleventer/nodejs-docker-example#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3"
+  }
+}
