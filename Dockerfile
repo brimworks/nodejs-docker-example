@@ -1,5 +1,7 @@
-FROM hwestphal/nodebox
-curl http://npmjs.org/install.sh | sh
+FROM progrium/busybox
+RUN apt-get update -y
+RUN sudo apt-get -y install nodejs
+RUN sudo apt-get -y install npm
 COPY . /src
 RUN cd /src; npm install
 EXPOSE 3000
