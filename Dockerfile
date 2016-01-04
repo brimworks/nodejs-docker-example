@@ -1,5 +1,5 @@
 FROM hwestphal/nodebox
-RUN sudo apt-get -y install npm
+RUN apt-get -y install npm
 COPY . /src
 RUN cd /src; npm install
 EXPOSE 3000
